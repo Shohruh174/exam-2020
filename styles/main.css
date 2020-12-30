@@ -864,10 +864,51 @@ body {
   background-color: #F3F3F3;
   border-radius: 12px;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item:last-child {
   margin: 0;
+}
+
+.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item .w6-span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #00B527;
+  position: relative;
+}
+
+.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item .w6-span.span1::before {
+  content: url(../images/icons/star.svg);
+  position: absolute;
+  top: -7px;
+  bottom: 0;
+  right: 0;
+  left: -50px;
+  width: 30px;
+  height: 30px;
+}
+
+.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item .w6-span.span2::before {
+  content: url(../images/icons/game-controller.svg);
+  position: absolute;
+  top: -7px;
+  bottom: 0;
+  right: 0;
+  left: -50px;
+  width: 34px;
+  height: 34px;
+}
+
+.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item .medal {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  width: 80px;
+  height: 80px;
+  margin: auto;
 }
 
 .wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item.item1 {
@@ -880,6 +921,24 @@ body {
   display: flex;
 }
 
+.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item-left .div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item-left .div .w6-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #467FFF;
+}
+
 .wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item-left .w6-item_img {
   margin-right: 20px;
 }
@@ -890,23 +949,5 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #16233C;
-}
-
-.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item-left .w6-title .div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item-left .w6-title .div .w6-p {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  color: #467FFF;
 }
 /*# sourceMappingURL=main.css.map */

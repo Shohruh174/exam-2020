@@ -715,15 +715,72 @@ body {
           background-color: #F3F3F3;
           border-radius: 12px;
           margin-bottom: 30px;
+          position: relative;
           &:last-child {
             margin: 0;
           }
+
+          & .w6-span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color: #00B527;
+            position: relative;
+
+            &.span1::before {
+              content: url(../images/icons/star.svg);
+              position: absolute;
+              top: -7px;
+              bottom: 0;
+              right:0;
+              left: -50px;
+              width: 30px;
+              height: 30px;
+            }
+            
+            &.span2::before {
+              content: url(../images/icons/game-controller.svg);
+              position: absolute;
+              top: -7px;
+              bottom: 0;
+              right:0;
+              left: -50px;
+              width: 34px;
+              height: 34px;
+            }
+          }
+
+          & .medal {
+            position: absolute;
+            top: 0;
+            right: 10px;
+            width: 80px;
+            height: 80px;
+            margin: auto;
+          }
+
           &.item1 {
             background-color: #FFF4E9;
           }
 
           &-left {
             display: flex;
+
+            & .div {
+              display: flex;
+              flex-direction: column;
+              
+              & .w6-text {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                color: #467FFF;
+              }
+
+            }
+
             & .w6-item_img {
               margin-right: 20px;
             }
@@ -735,20 +792,8 @@ body {
               line-height: 22px;
               color: #16233C;
 
-              
-              & .div {
-                display: flex;
-                flex-direction: column;
-
-                & .w6-p {
-                  font-style: normal;
-                  font-weight: 500;
-                  font-size: 18px;
-                  line-height: 22px;
-                  color: #467FFF;
-                }
-              }
             }
+
           }
         }
       }
