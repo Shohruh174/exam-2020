@@ -799,4 +799,114 @@ body {
   line-height: 125.34%;
   color: #5D748A;
 }
+
+.wrap6 .wrap6-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.wrap6 .wrap6-inner .w6-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.wrap6 .wrap6-inner .w6-top .view-all {
+  padding-right: 60px;
+}
+
+.wrap6 .wrap6-inner .w6-top .view-all::after {
+  margin-right: 60px;
+}
+
+.wrap6 .wrap6-inner .w6-top .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #558EF7;
+}
+
+.wrap6 .wrap6-inner__right {
+  width: 752px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 46px 32px 32px 32px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #F3F3F3;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item:last-child {
+  margin: 0;
+}
+
+.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item.item1 {
+  background-color: #FFF4E9;
+}
+
+.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item-left .w6-item_img {
+  margin-right: 20px;
+}
+
+.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item-left .w6-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #16233C;
+}
+
+.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item-left .w6-title .div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrap6 .wrap6-inner__right .w6-bottom .w6-inner__item-left .w6-title .div .w6-p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #467FFF;
+}
 /*# sourceMappingURL=main.css.map */
