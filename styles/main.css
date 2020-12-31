@@ -68,11 +68,53 @@ a {
 }
 
 body {
-  background-color: #e5e5e5;
+  background: #F0F3F7;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
 }
 
 .overlay {
   display: none;
+  position: fixed;
+  top: 95px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 0;
+  z-index: 1;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  background: #5D748A;
+  opacity: 0.7;
+}
+
+.overlay.visible {
+  height: 100%;
+  display: inline-block;
+}
+
+.mobile-menu {
+  position: absolute;
+  z-index: 10;
+  width: 504px;
+  height: 640px;
+  left: 468px;
+  top: 118px;
+  background: #FFFFFF;
+  border-radius: 24px;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.mobile-menu.opened {
+  height: 265px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
 }
 
 .view-all {
@@ -1030,6 +1072,33 @@ body {
   margin-bottom: 175px;
 }
 
+.wrap7-top {
+  margin-bottom: 56px;
+}
+
+.wrap7-top .w7-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 125.34%;
+  text-align: center;
+  color: #558EF7;
+}
+
+.wrap7-top .view-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
 .wrap7-inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1040,6 +1109,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #e5e5e5;
+  padding: 32px 0 76px 0;
 }
 
 .wrap7-inner__item {
@@ -1050,7 +1121,6 @@ body {
 .wrap7-inner__item .w7-img {
   background: -webkit-gradient(linear, left bottom, left top, from(#383C45), to(rgba(56, 60, 69, 0)));
   background: linear-gradient(0deg, #383C45 0%, rgba(56, 60, 69, 0) 100%);
-  color: linear-gradient(0deg, #383C45 0%, rgba(56, 60, 69, 0) 100%);
   border-radius: 16px;
   z-index: 3;
   opacity: 0.6;
