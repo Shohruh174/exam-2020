@@ -452,6 +452,16 @@ body {
 
 .wrap3 {
   margin-bottom: 250px;
+  position: relative;
+}
+
+.wrap3::before {
+  content: url(../images/Ellipse.svg);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
 .wrap3 .wrap3-center__text {
@@ -490,6 +500,16 @@ body {
   color: #FFFFFF;
 }
 
+.wrap3-inner-item .text.text1 {
+  position: relative;
+  left: 25px;
+}
+
+.wrap3-inner-item .text.last_child {
+  position: relative;
+  left: -185px;
+}
+
 .wrap3-inner-item:first-child::before {
   content: url(../images/w4-bg1.png);
   position: absolute;
@@ -514,7 +534,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  left: -200px;
+  left: 0;
 }
 
 .wrap3-inner-item.center_p::before {
@@ -1013,6 +1033,13 @@ body {
   border-radius: 50%;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
+}
+
+.block2-inner__wrap .social:hover {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 29px;
 }
 
 .block2-inner__wrap .social:hover .block2-icon {
