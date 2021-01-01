@@ -28,6 +28,8 @@ body {
 }
 
 .mobile-menu {
+  display: flex;
+  align-items: center;
   position: absolute;
   z-index: 10;
   width: 504px;
